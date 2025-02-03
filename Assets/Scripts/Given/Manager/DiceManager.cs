@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using Game.Battle.Character;
-using Given.Manager;
 using UnityEngine;
 
-namespace Managers
+namespace Given.Manager
 {
+    [DefaultExecutionOrder(-1000)]
     public class DiceManager : MonoBehaviour
     {
         [SerializeField] private Dice fourSidedDice;

@@ -1,7 +1,6 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
 using Given.Manager;
-using Managers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
