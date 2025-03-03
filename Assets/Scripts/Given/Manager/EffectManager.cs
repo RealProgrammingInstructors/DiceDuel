@@ -49,6 +49,7 @@ namespace Given.Manager
 
         public void PlayDissolve(Vector3 position, Quaternion rotation, Mesh mesh, Color color)
         {
+            color.a = 1;
             // Set the particle system's transform position and rotation
             diceDissolveParticles.transform.SetPositionAndRotation(position, rotation);
 
@@ -67,6 +68,7 @@ namespace Given.Manager
 
         public void PlaySparks(Vector3 position, Quaternion rotation, Color color, float intensity = 1)
         {
+            color.a = 1;
             sparkParticles.transform.SetPositionAndRotation(position, rotation);
             
             // Get the main module to set the start color
